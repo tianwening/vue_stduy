@@ -4,8 +4,11 @@
     <div>
         <header-vue></header-vue>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
         <span v-bind:value="text">{{text}}</span>
         <button v-on:click="listen">爸爸听电话</button>
         <button @click="removePhone">移除phone事件</button>
@@ -18,6 +21,9 @@ export default {
     data(){
         return {
             text: '我很好'
+=======
+<<<<<<< HEAD
+>>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
 =======
 >>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
         <button v-on:click="listen">爸爸焦急的听电话</button>
@@ -33,6 +39,10 @@ export default {
         return {
             
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fbfdf6a3b51f771c303ba1f2f940d1cf0ceb7552
+>>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
 =======
 >>>>>>> fbfdf6a3b51f771c303ba1f2f940d1cf0ceb7552
 >>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
@@ -43,9 +53,12 @@ export default {
             connector.$on('phone',function(msg){
                 console.log(msg);
 <<<<<<< HEAD
+<<<<<<< HEAD
             });
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
             })
         },
         removePhone(){
@@ -53,6 +66,9 @@ export default {
 =======
             });
 >>>>>>> fbfdf6a3b51f771c303ba1f2f940d1cf0ceb7552
+<<<<<<< HEAD
+>>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
+=======
 >>>>>>> f3b6084e3fb0439b2e58b71406c45ceee34ed06d
         }
     }
