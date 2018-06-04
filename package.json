@@ -10,18 +10,22 @@
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",
+    "babel-helpers": "^6.24.1",
     "babel-loader": "^7.1.4",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^0.28.11",
     "html-webpack-plugin": "^3.2.0",
     "style-loader": "^0.21.0",
     "vue-loader": "^14.0.3",
+    "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.10.2",
     "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
+    "mint-ui": "^2.2.13",
     "vue": "^2.5.16"
   }
 }
